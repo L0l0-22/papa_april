@@ -1,7 +1,7 @@
 'use client';
 
+import PrivacyContent from '@/components/PrivacyContent';
 import React from 'react'
-import PrivacyContent from '../components/PrivacyContent'
 
 export default function Page() {
   return (

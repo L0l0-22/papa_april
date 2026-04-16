@@ -82,7 +82,7 @@ export default function Footer() {
             </span>
           </p>
 
-          <div className="relative w-[146px] h-[60px]">
+          <div className="relative w-36.5 h-15">
             <Image src="/logo.png" alt="Papa John's" fill className="object-contain" />
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <p className="leading-relaxed max-w-[85rem] mt-4">
+          <p className="leading-relaxed max-w-340 mt-4">
             Offers good for a limited time at participating Papa Johns restaurants...
           </p>
 

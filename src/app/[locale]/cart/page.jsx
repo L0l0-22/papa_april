@@ -40,14 +40,14 @@ export default function Page() {
 
     return (
         <div className='mx-auto max-w-[90%] py-12'>
-            <Link href={`/${locale}/menu`} className="flex items-center gap-2 cursor-pointer font-[500] text-[25px]">
+            <Link href={`/${locale}/menu`} className="flex items-center gap-2 cursor-pointer font-medium text-[25px]">
                 <IoArrowBack size={24} className='text-mainGreen' />
                 <span>Back to menu</span>
             </Link>
 
             <div className="flex flex-col sm:flex-col xl:flex-row gap-6 md:gap-12 xl:gap-32 xl:items-start w-full mt-7">
                 <div className="flex flex-col gap-6">
-                    <h5 className="flex items-center gap-2 cursor-pointer font-[500] text-[28px] pl-4">
+                    <h5 className="flex items-center gap-2 cursor-pointer font-medium text-[28px] pl-4">
                         Your cart
                     </h5>
                     
@@ -85,14 +85,14 @@ export default function Page() {
                     ))}
 
                     <div className="w-full mt-6">
-                        <div className="flex justify-between items-center text-[16.87px] font-[500] font-poppins text-black mb-2">
+                        <div className="flex justify-between items-center text-[16.87px] font-medium font-poppins text-black mb-2">
                             <span>Subtotal</span>
                             <span>EGP 450.00</span>
                         </div>
 
                         <div className="border-t border-[#E0E0E0] my-3"></div>
 
-                        <div className="flex justify-between items-center text-[18px] font-[600] font-poppins text-black">
+                        <div className="flex justify-between items-center text-[18px] font-semibold font-poppins text-black">
                             <span>Total</span>
                             <span>EGP 450.00</span>
                         </div>

@@ -1,13 +1,14 @@
-'use client'
+'use client';
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
-import Meeting from '../../../components/Meeting';
-import Find from '../../../components/Find';
-import Location from '../../../components/Location';
-import DownloadApp from '../../../components/DownloadApp';
-import Feedback from '../../../components/Feedback';
-import { feedbackData } from '../../../components/feedbackData';
+import Meeting from '@/components/Meeting';
+import Find from '@/components/Find';
+import Location from '@/components/Location';
+import DownloadApp from '@/components/DownloadApp';
+import Feedback from '@/components/Feedback';
+import { feedbackData } from '@/components/feedbackData';
+
 
 export default function Page() {
   const pathname = usePathname();
@@ -39,7 +40,7 @@ export default function Page() {
 
   return (
     <>
-      {isBaseAbout && (
+      {/* {isBaseAbout && ( */}
         <>
           <div className="w-full max-w-[90%] mx-auto flex flex-col gap-44 mt-12 mb-32 ">
             <div className="mb-20">
@@ -57,7 +58,7 @@ export default function Page() {
             <Feedback data={feedbackData[1]} />
           </div>
         </>
-      )}
+      {/* )} */}
     </>
   );
 }

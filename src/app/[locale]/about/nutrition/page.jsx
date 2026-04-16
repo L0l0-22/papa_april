@@ -1,9 +1,10 @@
 'use client';
 
+import Ingredients from '@/components/Ingredients';
+import NutritionInfoSection from '@/components/NutritionInfoSection';
+import RewardFrame from '@/components/RewardFrame';
 import React from 'react'
-import RewardFrame from '../components/RewardFrame'
-import Ingredients from '../components/Ingredients'
-import NutritionInfoSection from '../components/NutritionInfoSection'
+
 
 export default function Page() {
   return (

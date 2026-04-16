@@ -1,11 +1,11 @@
 'use client';
 
 import React from 'react';
-import Support from '../components/Support';
-import Location from '../components/Location';
-import StoreCard from '../components/StoreCard';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiClock, FiPhone } from 'react-icons/fi';
+import StoreCard from '@/components/StoreCard';
+import Location from '@/components/Location';
+import Support from '@/components/Support';
 
 export default function Page() {
 

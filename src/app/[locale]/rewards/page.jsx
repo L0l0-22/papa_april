@@ -1,9 +1,9 @@
 'use client';
 
+import DeliveryWork from '@/components/DeliveryWork';
+import RewardFrame from '@/components/RewardFrame';
+import Rewards from '@/components/Rewards';
 import React from 'react';
-import Rewards from '../components/Rewards';
-import DeliveryWork from '../components/DeliveryWork';
-import RewardFrame from '../components/RewardFrame';
 
 const customWorkArray = [
   {
@@ -32,14 +32,14 @@ export default function Page() {
   return (
     <div className="w-full max-w-[90%] mx-auto flex flex-col gap-44 mt-12 mb-32">
       
-      <RewardFrame />
+      <RewardFrame/>
 
       <DeliveryWork
         workList={customWorkArray}
         title="4 Easy Steps"
       />
 
-      <Rewards />
+      <Rewards/>
 
     </div>
   );

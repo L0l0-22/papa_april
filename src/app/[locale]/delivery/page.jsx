@@ -1,20 +1,20 @@
 'use client'
 import React from 'react'
-import DeliverySlider from '../components/DeliverySlider'
-import Steps from '../components/Steps'
-import DeliveryWork from '../components/DeliveryWork'
-import DeliverPeople from '../components/DeliverPeople'
-import DownloadApp from '../components/DownloadApp'
-import Support from '../components/Support'
-import supportImage from "../assets/support.png";
+
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiClock, FiPhone } from 'react-icons/fi';
+import DeliverySlider from '@/components/DeliverySlider';
+import Steps from '@/components/Steps';
+import DeliveryWork from '@/components/DeliveryWork';
+import DeliverPeople from '@/components/DeliverPeople';
+import DownloadApp from '@/components/DownloadApp';
+import Support from '@/components/Support';
 export default function Page() {
   const supportData = {
       heading: 'egypt - cairo , maadi',
       buttonText: 'contact us now!',
       navigateTo:'/contact',
-      image: supportImage,
+      image: "/support.png",
       details: [
         {
           icon: <HiOutlineLocationMarker size={26} />,

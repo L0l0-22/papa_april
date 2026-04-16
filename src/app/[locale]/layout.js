@@ -5,6 +5,7 @@ import "../globals.css";
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import localFont from 'next/font/local'; // For custom fonts
+import LayoutClientWrapper from '../LayoutClientWrapper';
 
 // Import custom fonts
 const PapaSansHeavy = localFont({
@@ -85,16 +86,11 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html lang={locale} className={`${PapaSansHeavy.variable} ${PapaSansMediumCondensed.variable} ${PapaSansRegular.variable} ${Pappy.variable} ${Sans.variable} ${SpotItalic.variable}`}>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages} dir={dir}>
-          {/* ✅ Navbar logic lives here */}
-          <Navbar/>
-
-          {/* Page content */}
-          {children}
-
-          {/* Footer */}
-          <Footer />
-        </NextIntlClientProvider>
+<NextIntlClientProvider locale={locale} messages={messages} dir={dir}>
+  <LayoutClientWrapper>
+    {children}
+  </LayoutClientWrapper>
+</NextIntlClientProvider>
       </body>
     </html>
   );

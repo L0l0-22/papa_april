@@ -14,10 +14,9 @@ export default function Navbar() {
   const [selectedLang, setSelectedLang] = useState("English");
   const locale = useLocale(); // Get current locale
   const pathname = usePathname();
+  const cleanPath = pathname.replace(`/${locale}`, "");
   const router = useRouter();
   const dropdownRef = useRef();
-
-  const isMenuPage = pathname.startsWith("/menu");
 
   const menuSubLinks = [
     { name: "Rewards", id: "Rewards" },
@@ -36,15 +35,16 @@ export default function Navbar() {
   const aboutSubLinks = [
     { name: "Ingredients", path: "/about/ingredients" },
     { name: "Nutrition", path: "/about/nutrition" },
-    { name: "Store Locator", path: "/about/store" },
-    { name: "FAQ", path: "/about/FAQ" },
+    { name: "Store Locator", path: "/about/branches" },
+    { name: "FAQ", path: "/about/faq" },
   ];
+const isMenuPage = cleanPath.startsWith("/menu");
 
-  const getSubLinks = () => {
-    if (pathname.startsWith("/menu")) return menuSubLinks;
-    if (pathname.startsWith("/about")) return aboutSubLinks;
-    return [];
-  };
+const getSubLinks = () => {
+  if (cleanPath.startsWith("/menu")) return menuSubLinks;
+  if (cleanPath.startsWith("/about")) return aboutSubLinks;
+  return [];
+};
 
   const handleScrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -68,7 +68,7 @@ export default function Navbar() {
   }, []);
 
   const handleClick = () => {
-    router.push(isMenuPage ? "/signup" : "/menu");
+    router.push(isMenuPage ? `/${locale}/signup` : `/${locale}/menu`);
   };
 
   return (
@@ -127,7 +127,7 @@ export default function Navbar() {
             {[
               { name: "MENU", path: "/menu" },
               { name: "Special Offers", path: "/offers" },
-              { name: "Contact Free Delivery", path: "/contact-free-delivery" },
+              { name: "Contact Free Delivery", path: "/delivery" },
               { name: "PAPA Rewards", path: "/rewards" },
               { name: "About Us", path: "/about" },
             ].map((link) => (
@@ -177,7 +177,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="xl:hidden px-6 pb-4">
           <div className="flex flex-col gap-4 font-bold pt-5">
-            {["/menu", "/offers", "/contact-free-delivery", "/rewards", "/about"].map(
+            {["/menu", "/offers", "/delivery", "/rewards", "/about"].map(
               (path) => (
                 <Link key={path} href={`/${locale}${path}`} onClick={() => setMenuOpen(false)}>
                   {path.replace("/", "").toUpperCase() || "HOME"}

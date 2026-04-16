@@ -1,11 +1,13 @@
 'use client';
 
+import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 export default function LogForm() {
   const router = useRouter();
-  
+  const locale = useLocale();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     router.push('/');
@@ -25,7 +27,7 @@ export default function LogForm() {
           >
             Email
           </label>
-          <div className="w-full h-[44.63px] p-[1px] rounded-[8px] bg-gradient-to-b from-[#A6A6A6] to-mainGreen">
+          <div className="w-full h-[44.63px] p-px rounded-lg bg-linear-to-b from-[#A6A6A6] to-mainGreen">
             <input
               type="email"
               id="email"
@@ -42,7 +44,7 @@ export default function LogForm() {
           >
             Password
           </label>
-          <div className="w-full h-[44.63px] p-[1px] rounded-[8px] bg-gradient-to-b from-[#A6A6A6] to-mainGreen">
+          <div className="w-full h-[44.63px] p-px rounded-lg bg-linear-to-b from-[#A6A6A6] to-mainGreen">
             <input
               type="password"
               id="password"
@@ -68,14 +70,14 @@ export default function LogForm() {
       <div className="pt-12">
         <button
           type="submit"
-          className="w-full font-medium text-base sm:w-[200px] h-[50px] px-[22.53px] py-[10px] rounded-[29.65px] bg-[rgba(166,166,166,1)] text-white flex items-center justify-center gap-[11.86px] transition hover:opacity-90 uppercase"
+          className="w-full font-medium text-base sm:w-50 h-12.5 px-[22.53px] py-2.5 rounded-[29.65px] bg-[rgba(166,166,166,1)] text-white flex items-center justify-center gap-[11.86px] transition hover:opacity-90 uppercase"
         >
           Sign In
         </button>
       </div>
       
       <p className='font-normal text-sm pt-5'>
-        Don't have an account? <Link href="/signup" className="font-bold text-base">sign up</Link>
+        Don't have an account? <Link href={`/${locale}/signup`} className="font-bold text-base">sign up</Link>
       </p>
     </form>
   );

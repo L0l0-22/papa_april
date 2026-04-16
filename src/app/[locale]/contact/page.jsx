@@ -1,9 +1,10 @@
 'use client'
 
+import Comments from '@/components/Comments'
+import DeliverPeople from '@/components/DeliverPeople'
+import DownloadApp from '@/components/DownloadApp'
 import React from 'react'
-import DeliverPeople from '../components/DeliverPeople'
-import DownloadApp from '../components/DownloadApp'
-import Comments from '../components/Comments'
+
 
 export default function Page() {
   return (

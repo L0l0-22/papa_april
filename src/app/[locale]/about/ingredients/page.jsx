@@ -1,12 +1,13 @@
 'use client';
 
 import React from 'react';
-import DeliverySlider from '../components/DeliverySlider';
-import Carousel from '../components/Carousel';
-import People from '../components/People';
-import Support from '../components/Support';
+
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiClock, FiPhone } from 'react-icons/fi';
+import DeliverySlider from '@/components/DeliverySlider';
+import Carousel from '@/components/Carousel';
+import People from '@/components/People';
+import Support from '@/components/Support';
 
 export default function Page() {
 

@@ -61,10 +61,10 @@ export default function AddToCartModal({ isOpen, onClose }) {
 
       <div
         ref={modalRef}
-        className="bg-white rounded-3xl w-full max-w-xs md:max-w-2xl lg:max-w-[80rem] lg:max-h-[85vh] relative overflow-hidden"
+        className="bg-white rounded-3xl w-full max-w-xs md:max-w-2xl lg:max-w-7xl lg:max-h-[85vh] relative overflow-hidden"
       >
 
-        <div className="overflow-y-auto max-h-[85vh] px-6 py-10 lg:px-12 lg:pr-[90px] custom-scroll flex flex-col lg:flex-row justify-between">
+        <div className="overflow-y-auto max-h-[85vh] px-6 py-10 lg:px-12 lg:pr-22.5 custom-scroll flex flex-col lg:flex-row justify-between">
 
           {/* Left side */}
           <div className="w-full lg:w-[30%] flex justify-center items-center flex-col text-center">
