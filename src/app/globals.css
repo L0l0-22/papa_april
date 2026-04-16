@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Fonts */
+  --font-sans: 'Poppins', sans-serif;
+  --font-potta: '"Potta One"', cursive;
+
+  /* Custom Screens */
+  --breakpoint-xl1400: 1400px;
+  --breakpoint-xl1600: 1600px;
+  --breakpoint-xl1700: 1700px;
+  --breakpoint-xl1800: 1800px;
+
+  /* Colors */
+  --color-lightYellow: #CFEB0B;
+  --color-mainGreen: #2D5D2A;
+  --color-mainRed: #DF2A27;
+  --color-cheese: #FFCF6E;
+  --color-darkRed: #710500;
+  --color-biege: #F5E8DC;
+  --color-lightGreen: #65A17A;
+
+  --color-freshBasil: #2D5D2A;
+  --color-tangyTomato: #FF0000;
+  --color-stringyCheese: #FFCF6E;
+  --color-richSauce: #710500;
+  --color-fluffyDough: #F5E8DC;
+  --color-ripenedVine: #65A17A;
+  --color-pickledpepperoncini: #CFEB0C;
+  --color-punchyGarlic: #E3C2ED;
+  --color-greyLabel: #D9D9D9;
+  --color-fieldText: #70766F;
+  --color-fieldText: #70766F;
+
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+@keyframes fadeMove {
+  0% { opacity: 0; transform: translate(var(--x), var(--y)) scale(0.3); }
+  50% { opacity: 1; transform: translate(calc(var(--x) + 4px), calc(var(--y) - 3px)) scale(1); }
+  100% { opacity: 0; transform: translate(var(--x), var(--y)) scale(0.3); }
+}

@@ -1,0 +1,433 @@
+{
+  "navbar": {
+    "brand": "SundSpeak",
+    "career": "Karriere",
+    "language": "Deutsch"
+  },
+  "hero1": {
+    "heading": "Wir sprechen die Zukunft des Services an",
+    "subtext": "Wir hören zu. Wir kümmern uns. Wir liefern.",
+    "button": "Erfahren Sie mehr über uns",
+    "imageAlt": "Kundenservice Illustration"
+  },
+  "drawer": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "career": "Karrieren",
+    "contact": "Kontakt",
+    "promo1": "Beginnen Sie noch heute Ihre Reise in das Deutschtraining!",
+    "promo2": "Rufen Sie uns an: +1-800-747-0583"
+  },
+  "home": {
+    "hero": {
+      "title": "Wir sind SundSpeak.",
+      "subtitle": "Der intelligente Transformationspartner.",
+      "description": "Wir unterstützen weltweit führende Unternehmen dabei, Technologien zu modernisieren, Erlebnisse zu transformieren und ihre größten geschäftlichen Herausforderungen zu lösen.",
+      "button": "Loslegen"
+    }
+  },
+  "launch": {
+    "title": "SundSpeak startet ein intensives Deutschtrainingsprogramm für BPO-Karrieren",
+    "button": "Mehr erfahren"
+  },
+"featured": {
+  "title": "Ausgewählte Lern-Einblicke",
+  "learnMore": "Mehr erfahren",
+  "items": {
+    "1": {
+      "title": "Warum Unternehmen Ägypten für BPO- und Customer-Experience-Operationen wählen",
+      "description": "Erfahren Sie, wie Ägypten zu einem globalen Zentrum für mehrsprachigen Kundensupport und Outsourcing-Dienstleistungen geworden ist."
+    },
+    "2": {
+      "title": "Wie mehrsprachiger Support die globale Kundenerfahrung verbessert",
+      "description": "Erfahren Sie, wie Unternehmen Kundenbeziehungen stärken können, indem sie Support in mehreren Sprachen anbieten."
+    },
+    "3": {
+      "title": "Skalierung des Kundensupports: Best Practices für wachsende Unternehmen",
+      "description": "Entdecken Sie Strategien, die Organisationen helfen, ihre Kundensupport-Aktivitäten auszubauen und gleichzeitig die Servicequalität zu gewährleisten."
+    }
+  }
+},
+  "solution": {
+    "imageAlt": "Deutschsprachentraining",
+    "headline": {
+      "line3": "Zukunftsbereit."
+    },
+    "description": "Bei Sundspeak bieten wir qualitativ hochwertige, mehrsprachige Kundenerfahrungen und Lösungen für Business Process Outsourcing für globale Organisationen. Unsere Teams kombinieren starke Kommunikationsfähigkeiten, Branchenexpertise und moderne Technologie, um Kunden effektiv zu unterstützen und Ihre Marke exzellent zu repräsentieren. Von Kundensupport über technische Unterstützung bis hin zu Back-Office-Operationen hilft Sundspeak Unternehmen, effizient zu skalieren und gleichzeitig außergewöhnliche Service-Standards zu gewährleisten."
+  },
+"unlock": {
+  "imageAlt": "Deutschsprachiges Training",
+  "title": "Globale Kundenverbindungen freischalten",
+  "description": "Unternehmen benötigen heute verlässliche Partner, die außergewöhnliche Kundenerfahrungen über Grenzen hinweg liefern können. Sundspeak bietet mehrsprachigen Kundensupport und Business Process Outsourcing-Lösungen, die Organisationen helfen, mit ihren Kunden in Verbindung zu treten, Beziehungen zu stärken und global zu wachsen. Unsere erfahrenen Teams kombinieren Kommunikationskompetenz, operative Exzellenz und moderne Technologie, um konsistente, hochwertige Unterstützung in verschiedenen Branchen zu gewährleisten.",
+  "button": "Unsere Dienstleistungen entdecken"
+},
+"services": {
+  "title": "Unsere Dienstleistungen",
+  "subtitle": "Entdecken Sie, wie SundSpeak International Geschäftserfolg durch erstklassige BPO-Lösungen fördert und exzellente globale Kommunikation sowie Kundenerfahrung ermöglicht.",
+  "learnMore": "Mehr erfahren",
+  "items": {
+    "1": {
+      "title": "Kundensupport-Lösungen",
+      "description": "Nahtlosen, mehrsprachigen Kundensupport liefern, der auf globale Kunden und Branchen zugeschnitten ist."
+    },
+    "2": {
+      "title": "CX-Exzellenz",
+      "description": "Steigern Sie die Kundenzufriedenheit mit bewährten Strategien, moderner Technologie und erfahrenen Teams."
+    },
+    "3": {
+      "title": "Mitarbeiterentwicklung",
+      "description": "Sehen Sie, wie SundSpeak Talente fördert und Mitarbeitern hilft, selbstbewusste BPO-Profis zu werden."
+    },
+    "4": {
+      "title": "Karrierepfad",
+      "description": "Bauen Sie eine lohnende Karriere im BPO-Sektor auf, mit Chancen für globale Weiterentwicklung."
+    }
+  }
+},
+"industry": {
+  "title": "Branchenerfahrung",
+  "subtitle": "Wir erzielen Wirkung in verschiedenen Branchen mit maßgeschneiderten BPO-Lösungen, exzellenter Kundenerfahrung und technologiegestützten Abläufen.",
+  "items": {
+    "1": {
+      "title": "Kundenservice & CX",
+      "description": "Bereitstellung von erstklassigem Kundenservice über Voice, Chat und digitale Kanäle."
+    },
+    "2": {
+      "title": "Bankwesen & Finanzdienstleistungen",
+      "description": "Unterstützung sicherer, konformer Abläufe für Banken, Versicherungen und Fintech."
+    },
+    "3": {
+      "title": "Gesundheitswesen & Life Sciences",
+      "description": "Verwaltung von Patientensupport, medizinischer Abrechnung und Gesundheitsverwaltung."
+    },
+    "4": {
+      "title": "Einzelhandel & E-Commerce",
+      "description": "Verbesserung des Einkaufserlebnisses durch Omnichannel-Support und Auftragsmanagement."
+    },
+    "5": {
+      "title": "Reise, Transport & Gastgewerbe",
+      "description": "Bereitstellung nahtloser Buchungen, Kundenbetreuung und Logistikunterstützung."
+    },
+    "6": {
+      "title": "Technologie & Unterhaltungselektronik",
+      "description": "Bereitstellung von Produktsupport, technischer Fehlerbehebung und Nutzerengagement."
+    },
+    "7": {
+      "title": "Telekommunikation & Medien",
+      "description": "Optimierung von Abonnentendiensten, Abrechnung und digitalem Inhalts-Support."
+    },
+    "8": {
+      "title": "Energie & Versorgung",
+      "description": "Optimierung der Kundenabrechnung, Ausfallmanagement und Serviceanfragen."
+    },
+    "9": {
+      "title": "Regierung & öffentlicher Sektor",
+      "description": "Bereitstellung von Bürgerdiensten und administrativer Unterstützung mit Effizienz."
+    },
+    "10": {
+      "title": "Emerging Industries",
+      "description": "Anpassung von BPO-Lösungen für Start-ups, KI-gesteuerte Unternehmen und globale Innovatoren."
+    }
+  }
+},
+  "insights": {
+    "title": "Einblicke",
+    "subtitle": "Forschung und Thought Leadership als Treiber der nächsten Ära intelligenter Transformation.",
+    "learnMore": "Mehr erfahren",
+    "items": {
+      "1": {
+        "title": "KI-Strategie & Transformation",
+        "desc": "Aufbau unternehmensweiter Intelligenz mit skalierbaren KI-Roadmaps."
+      },
+      "2": {
+        "title": "Datenmodernisierung",
+        "desc": "Erschließung des Datenpotenzials für fundierte Entscheidungen."
+      },
+      "3": {
+        "title": "Zukunft der Automatisierung",
+        "desc": "Neugestaltung von Workflows und operativer Effizienz durch Automatisierung."
+      },
+      "4": {
+        "title": "Brancheninnovationen",
+        "desc": "Wie KI Branchen neu gestaltet und neue Chancen schafft."
+      }
+    }
+  },
+  "power": {
+    "title": "SundSpeak.",
+    "subtitle": " Wir passen uns schnell an und nutzen Technologie, um voraus zu bleiben.",
+    "button": "Kontakt aufnehmen"
+  },
+  "sustainability": {
+    "imageAlt": "Nachhaltigkeit und ESG-Verpflichtung",
+    "title": "Unser Engagement für Nachhaltigkeit",
+    "paragraph1": "Als globales Unternehmen tragen wir Verantwortung dafür, das Leben unserer Mitarbeitenden zu bereichern, unsere Gemeinschaften zu unterstützen und die Gesundheit unseres Planeten zu schützen – und wir nehmen diese Verantwortung sehr ernst.",
+    "paragraph2": "Bei SundSpeak nutzen wir unsere globale Reichweite, um als Kraft für das Gute zu wirken und die Welt zu verändern, indem wir uns auf fünf zentrale Wirkungsbereiche konzentrieren."
+  },
+"footer": {
+  "logoAlt": "SundSpeak Logo",
+  "programs": {
+    "title": "Programme",
+    "1": "BPO Karrierepfad",
+    "2": "CCX Excellence Training",
+    "3": "Job Readiness Programm",
+    "4": "Professioneller Wachstumsweg"
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "1": "Kommunikations-Coaching",
+    "2": "Vorbereitung auf Interviews",
+    "3": "Branchenzertifizierungsprogramme",
+    "4": "Live-Rollenspiel-Sessions"
+  },
+  "resources": {
+    "title": "Ressourcen",
+    "1": "Knowledge Hub Blog",
+    "2": "FAQs",
+    "3": "Skill-Building Workshops",
+    "4": "Lernersupport"
+  },
+  "company": {
+    "title": "Unternehmen",
+    "1": "Über uns",
+    "2": "Karriere",
+    "3": "Kontakt",
+    "4": "Datenschutzrichtlinie"
+  },
+  "copyright": "SundSpeak International. Alle Rechte vorbehalten."
+},
+"servicesPage": {
+  "hero": {
+    "title": "Dienstleistungen",
+    "subtitle": "Umfassende Lösungen für technologiegetriebenes Wachstum",
+    "description": "Nutzen Sie Daten, Innovationen und operative Exzellenz, um die Leistung zu steigern und messbare Ergebnisse in Ihrem Unternehmen zu liefern.",
+    "button": "Kontaktieren Sie uns"
+  },
+  "strategy": {
+    "training": {
+      "heading": "Intensives CX-Training für BPO-Teams",
+      "description": "Stärken Sie Ihre Belegschaft mit maßgeschneidertem Customer-Experience-Lernen für kundenorientierte Umgebungen.",
+      "items": {
+        "1": "Live-Sitzungen mit Expertentrainern",
+        "2": "Echtzeit-Simulationen von Kundeninteraktionen",
+        "3": "Ausspracheklarheit & Kommunikationstechniken",
+        "4": "CX-orientierter Wortschatz & Rollenspiele für Service-Exzellenz"
+      }
+    },
+    "why": {
+      "heading": "Warum SundSpeak funktioniert",
+      "description": "Unser bewährtes Framework hilft BPO-Profis, Selbstvertrauen, Kommunikationsfähigkeiten und echte Kundenbereitschaft aufzubauen.",
+      "items": {
+        "1": "Maßgeschneiderte Lernpfade für jede Rolle",
+        "2": "Flexibler Online-Zugang für vielbeschäftigte Teams",
+        "3": "Unternehmens-Onboarding-Unterstützung",
+        "4": "Fortschrittsverfolgung & Zertifizierung"
+      },
+      "extraText": "Wir sind ein wachsendes Unternehmen, bereit, BPO-Teams mit den Fähigkeiten auszustatten, die sie benötigen, um außergewöhnliche Kundenerfahrungen zu liefern und auf internationalen Märkten erfolgreich zu sein."
+    }
+  }
+},
+  "solutionEcosystem": {
+    "title": "Unser Lösungsökosystem",
+    "description": "Entdecken Sie neue Möglichkeiten, um Ihr volles Potenzial zu entfalten. Mit unserem umfassenden Lösungsökosystem gestalten, entwickeln und betreiben wir Ihr zukünftiges Geschäft – für einen entscheidenden Wettbewerbsvorteil und intelligenteres, schnelleres sowie wachstumsorientiertes Arbeiten."
+  },
+"faq": {
+  "title": "Häufig gestellte Fragen",
+  "items": {
+    "1": {
+      "question": "Was ist SundSpeak und was bieten Sie an?",
+      "answer": "SundSpeak bietet intensive Trainingsprogramme, die darauf ausgelegt sind, die Kommunikationsfähigkeiten, Kundeninteraktionen und Customer-Experience-Kompetenzen von BPO-Profis zu stärken."
+    },
+    "2": {
+      "question": "Ist vorherige Erfahrung im Call Center erforderlich?",
+      "answer": "Nein. Unsere Programme sind für alle Erfahrungsstufen geeignet, von Einsteigern bis zu erfahrenen Agenten, sodass jeder Selbstvertrauen und Einsatzbereitschaft entwickeln kann."
+    },
+    "3": {
+      "question": "Wie lange dauert es, bis Ergebnisse sichtbar sind?",
+      "answer": "Die meisten Teams bemerken innerhalb von Wochen eine Verbesserung der Kommunikation und der CX-Leistung, abhängig von Trainingsintensität und Rollenanforderungen."
+    },
+    "4": {
+      "question": "Können Unternehmen ihre Teams anmelden?",
+      "answer": "Ja. Wir bieten Corporate-Onboarding-Unterstützung und maßgeschneiderte Trainingspfade für gesamte BPO-Teams, um den Erwartungen der Kunden gerecht zu werden."
+    }
+  }
+},
+  "letsConnect": {
+    "imageAlt": "Kontakt aufnehmen",
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Klicken Sie unten, wenn Sie an einer Karrieremöglichkeit bei SundSpeak interessiert sind.",
+    "viewCareers": "Karrieren ansehen",
+    "submit": "Absenden",
+    "consent": "Ich erkläre mich damit einverstanden, Informationen zu relevanten Inhalten, Produkten und Dienstleistungen von SundSpeak zu erhalten. Ich kann mich jederzeit abmelden.",
+    "privacy": "Durch das Absenden dieses Formulars werden Ihre Daten gemäß unserer Datenschutzrichtlinie verarbeitet und gespeichert.",
+    "recaptcha": "Diese Website ist durch reCAPTCHA geschützt und es gelten die Datenschutzbestimmungen und Nutzungsbedingungen von Google.",
+    "form": {
+      "firstName": "Vorname *",
+      "lastName": "Nachname *",
+      "company": "Firmenname *",
+      "email": "Geschäftliche E-Mail-Adresse *",
+      "phone": "Telefonnummer *",
+      "comments": "Nachricht *",
+      "jobLevel": {
+        "placeholder": "Karrierestufe * (Auswählen)",
+        "entry": "Einsteiger",
+        "mid": "Berufserfahren",
+        "senior": "Senior",
+        "executive": "Führungsebene"
+      },
+      "country": {
+        "placeholder": "Land * (Auswählen)",
+        "germany": "Deutschland",
+        "philippines": "Philippinen",
+        "india": "Indien",
+        "usa": "USA",
+        "other": "Andere"
+      }
+    }
+  },
+"about": {
+  "title": "Über uns",
+  "intro": "SundSpeak International wurde mit der Mission gegründet, globale BPO-Talente mit den Sprach- und Kommunikationsfähigkeiten auszustatten, die sie für erfolgreiche Kundenorientierung benötigen. Was als kleine Initiative begann, ist zu einem vertrauenswürdigen Trainingspartner für Outsourcing-Profis auf mehreren Kontinenten gewachsen.",
+  "paragraph1": "Unser Erfolg liegt in unserer lernorientierten Denkweise, einem tiefen Verständnis der Kommunikationsherausforderungen im internationalen Geschäft und einem unermüdlichen Fokus auf praxisnahes, immersives Sprachtraining. Wir glauben, dass Sprachbeherrschung nicht nur Grammatik ist — es geht um Selbstvertrauen, Klarheit und Karrierechancen.",
+  "paragraph2": "Mit erfahrenen Ausbildern und einem industrieorientierten Curriculum hat SundSpeak hunderten von Fachkräften geholfen, von grundlegenden Sprachkenntnissen zur karrierebereiten Sprachbeherrschung zu gelangen — bereit, internationale Kunden zu unterstützen, außergewöhnliche Kundenerfahrungen zu bieten und neue Chancen im globalen BPO-Markt zu erschließen.",
+  "imageAlt": "Gründer oder SundSpeak-Team",
+  "founder": {
+    "name": "Sarah Muller, Gründerin & Haupttrainerin,",
+    "text": "führt die Mission seit dem ersten Tag an. Ihr Engagement für Bildung, klare Kommunikation und kulturelles Verständnis prägt jede Lektion, die wir lehren."
+  },
+  "tagline": "Sprache. Lernen. Führung.",
+  "closing": "Und wir fangen gerade erst an."
+},
+"trusted": {
+  "title": "Partnerschaften mit BPO-Profis zur Förderung von Karrierewachstum durch sprachliche Exzellenz.",
+  "imageAlt": "Globales Kommunikationstraining"
+},
+"promise": {
+  "title": "Unser Versprechen",
+  "subtitle": "Konventionen herausfordern, Karrieren transformieren und Ergebnisse durch sprachliche Exzellenz liefern.",
+  "items": {
+    "1": {
+      "title": "Deutsch für BPO"
+    },
+    "2": {
+      "title": "Flüssigkeit für CX"
+    },
+    "3": {
+      "title": "Erfolg der Studierenden"
+    },
+    "4": {
+      "title": "Karriereweg"
+    }
+  }
+},
+"aboutPage": {
+  "hero": {
+    "title": "SundSpeak",
+    "subtitle": "Sprache. Lernen. Führung.",
+    "description": "Bei SundSpeak International sind wir auf Sprachtraining spezialisiert, das speziell für die BPO-Branche entwickelt wurde. Unsere Mission ist es, Kommunikationslücken zu schließen, Service-Profis zu stärken und globale Karrierechancen zu ermöglichen. Durch die Anpassung von Sprachkenntnissen an die Anforderungen internationaler Geschäftsprozesse helfen wir Teams, außergewöhnlichen Support zu leisten, Kundenbeziehungen zu stärken und im globalen Outsourcing-Markt erfolgreich zu sein.",
+    "button": "Mehr erfahren"
+  }
+},
+  "contactPage": {
+    "hero": {
+      "title": "Kontakt aufnehmen",
+      "subtitle": "Wir unterstützen Sie auf Ihrem Weg.",
+      "description": "Kontaktieren Sie SundSpeak International, um mehr über unsere Programme zu erfahren, sich anzumelden oder Partnerschaften zu erkunden. Wir freuen uns auf Ihre Nachricht.",
+      "button": "Nachricht senden"
+    }
+  },
+  "contactForm": {
+    "interestsTitle": "Ich interessiere mich für",
+    "interests": {
+      "1": "Inschrijven voor een taalprogramma",
+      "2": "Firmentraining für BPO-Teams",
+      "3": "Partnerschaftsmöglichkeiten",
+      "4": "Medienanfrage",
+      "5": "Karriere bei SundSpeak",
+      "6": "Problem melden oder Feedback geben"
+    },
+    "submit": "Absenden",
+    "consent": "Ich stimme zu, Informationen zu relevanten Inhalten, Produkten und Dienstleistungen von SundSpeak zu erhalten. Ich kann mich jederzeit abmelden.",
+    "privacy": "Mit dem Absenden dieses Formulars werden Ihre Daten gemäß unserer Datenschutzrichtlinie verarbeitet und gespeichert.",
+    "recaptcha": "Diese Website ist durch reCAPTCHA geschützt und es gelten die Datenschutzbestimmungen und Nutzungsbedingungen von Google.",
+    "form": {
+      "firstName": "Vorname *",
+      "lastName": "Nachname *",
+      "company": "Firmenname *",
+      "email": "Geschäftliche E-Mail-Adresse *",
+      "phone": "Telefonnummer *",
+      "comments": "Nachricht *",
+      "jobLevel": {
+        "placeholder": "Karrierestufe * (Auswählen)",
+        "entry": "Einsteiger",
+        "mid": "Berufserfahren",
+        "senior": "Senior",
+        "executive": "Führungsebene"
+      },
+      "country": {
+        "placeholder": "Land * (Auswählen)",
+        "germany": "Deutschland",
+        "philippines": "Philippinen",
+        "india": "Indien",
+        "usa": "USA",
+        "other": "Andere"
+      }
+    }
+  },
+  "careersPage": {
+    "hero": {
+      "title": "Karriere",
+      "subtitle": "Finden Sie Ihren Traumjob und den passenden Standort.",
+      "searchPlaceholder": "Jobtitel oder Stichwort suchen",
+      "locationPlaceholder": "Standort",
+      "imageAlt": "Karriere bei SundSpeak"
+    },
+    "jobs": {
+      "label": "FÜR SIE AUSGEWÄHLT",
+      "title": "Geef je carrière, waarmee je je team kunt veranderen, een boost.",
+      "loading": "Stellen werden geladen...",
+      "empty": "Derzeit sind keine Stellen verfügbar.",
+      "apply": "Jetzt bewerben",
+      "language": "Deutsch"
+    }
+  },
+
+  "jobDetails": {
+    "loading": "Stellendetails werden geladen...",
+    "apply": "Jetzt bewerben",
+    "description": "Stellenbeschreibung",
+    "labels": {
+      "location": "Standort",
+      "language": "Sprache"
+    },
+    "summary": {
+      "title": "Zusammenfassung",
+      "text": "Jetzt mit SundSpeak bewerben!"
+    },
+    "errors": {
+      "title": "Stelle nicht gefunden",
+      "notFound": "Diese Stelle existiert nicht oder wurde entfernt."
+    }
+  },
+
+  "applyForm": {
+    "title": "Für diese Stelle bewerben",
+    "submit": "Bewerbung absenden",
+    "submitting": "Wird gesendet...",
+    "cancel": "Abbrechen",
+    "success": "Ihre Bewerbung wurde erfolgreich eingereicht.",
+    "fields": {
+      "fullName": "Vollständiger Name *",
+      "email": "E-Mail *",
+      "phone": "Telefon *",
+      "city": "Stadt",
+      "experience": "Berufserfahrung"
+    },
+    "errors": {
+      "required": "Bitte füllen Sie alle Pflichtfelder aus",
+      "failed": "Bewerbung konnte nicht gesendet werden",
+      "generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    }
+  }
+}

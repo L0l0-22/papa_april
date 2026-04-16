@@ -1,0 +1,436 @@
+{
+  "navbar": {
+    "brand": "SundSpeak",
+    "career": "Career",
+    "language": "English"
+  },
+  "drawer": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "career": "Careers",
+    "contact": "Contact",
+    "promo1": "Start your German training journey today!",
+    "promo2": "Call us: +1-800-747-0583"
+  },
+  "hero1": {
+    "heading": "We Speak to the Future of Service",
+    "subtext": "We Listen. We Care. We Deliver",
+    "button": "Learn More About Us",
+    "imageAlt": "Customer Service Illustration"
+  },
+  "home": {
+    "hero": {
+      "title": "We’re SundSpeak.",
+      "subtitle": "The intelligent transformation partner.",
+      "description": "We help the world’s leading organizations to modernize technology, transform experiences, and solve their toughest business challenges.",
+      "button": "Get Started"
+    }
+  },
+  "launch": {
+    "title": "SundSpeak Launches Intensive German Training Program for BPO Careers",
+    "button": "Read More"
+  },
+  "featured": {
+    "title": "Featured Learning Insights",
+    "learnMore": "Learn More",
+    "items": {
+      "1": {
+        "title": "Why Businesses Choose Egypt for BPO and Customer Experience Operations" , 
+        "description": "Discover how Egypt has become a global hub for multilingual customer support and outsourcing services."
+      },
+      "2": {
+        "title": "How Multilingual Support Improves Global Customer Experience" , 
+        "description": "Learn how businesses can strengthen customer relationships by providing support in multiple languages."        
+      },
+      "3": {
+        "title": "Scaling Customer Support: Best Practices for Growing Companies" , 
+        "description": "Explore strategies that help organizations expand their customer support operations while maintaining service quality."
+      }
+    }
+  },
+  "solution": {
+    "imageAlt": "German Language Training",
+    "headline": {
+      "line3": "Future-ready."
+    },
+    "description": "At Sundspeak, we deliver high-quality multilingual customer experience and business process outsourcing solutions to global organizations. Our teams combine strong communication skills, industry expertise, and modern technology to support customers effectively and represent your brand with excellence. From customer support to technical assistance and back-office operations, Sundspeak helps businesses scale efficiently while maintaining exceptional service standards."
+  },
+  "unlock": {
+    "imageAlt": "German Language Training",
+    "title": "Unlock Global Customer Connections",
+    "description": "Businesses today need reliable partners who can deliver exceptional customer experiences across borders. Sundspeak provides multilingual customer support and business process outsourcing solutions that help organizations connect with their customers, strengthen relationships, and grow globally. Our skilled teams combine communication expertise, operational excellence, and modern technology to deliver consistent, high-quality support across multiple industries.",
+    "button": "Explore Our Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Explore how SundSpeak International drives business success through world-class BPO solutions, empowering global communication and customer experience excellence.",
+    "learnMore": "Learn More",
+    "items": {
+      "1": {
+        "title": "Customer Support Solutions",
+        "description": "Deliver seamless, multilingual customer support tailored to global clients and industries."
+      },
+      "2": {
+        "title": "CX Excellence",
+        "description": "Enhance customer satisfaction with proven strategies, technology, and skilled teams."
+      },
+      "3": {
+        "title": "Employee Growth",
+        "description": "See how SundSpeak nurtures talent, helping employees grow into confident BPO professionals."
+      },
+      "4": {
+        "title": "Career Pathway",
+        "description": "Build a rewarding career in the BPO sector with opportunities for global advancement."
+      }
+    }
+  },
+"industry": {
+  "title": "Industry Expertise",
+  "subtitle": "Driving impact across industries with tailored BPO solutions, customer experience excellence, and technology-enabled operations.",
+  "items": {
+    "1": {
+      "title": "Customer Support & CX",
+      "description": "Delivering world-class customer service across voice, chat, and digital channels."
+    },
+    "2": {
+      "title": "Banking & Financial Services",
+      "description": "Supporting secure, compliant operations for banking, insurance, and fintech."
+    },
+    "3": {
+      "title": "Healthcare & Life Sciences",
+      "description": "Managing patient support, medical billing, and healthcare administration."
+    },
+    "4": {
+      "title": "Retail & Ecommerce",
+      "description": "Enhancing shopping experiences with omnichannel support and order management."
+    },
+    "5": {
+      "title": "Travel, Transportation & Hospitality",
+      "description": "Providing seamless booking, customer care, and logistics support."
+    },
+    "6": {
+      "title": "Technology & Consumer Electronics",
+      "description": "Driving product support, technical troubleshooting, and user engagement."
+    },
+    "7": {
+      "title": "Telecom & Media",
+      "description": "Optimizing subscriber services, billing, and digital content support."
+    },
+    "8": {
+      "title": "Energy & Utilities",
+      "description": "Streamlining customer billing, outage management, and service inquiries."
+    },
+    "9": {
+      "title": "Government & Public Sector",
+      "description": "Delivering citizen services and administrative support with efficiency."
+    },
+    "10": {
+      "title": "Emerging Industries",
+      "description": "Adapting BPO solutions for startups, AI-driven enterprises, and global innovators."
+    }
+  }
+},
+  "insights": {
+    "title": "Insights",
+    "subtitle": "Research and thought leadership powering the next era of intelligent transformation.",
+    "learnMore": "Learn more",
+    "items": {
+      "1": {
+        "title": "AI Strategy & Transformation",
+        "desc": "Building enterprise-wide intelligence with scalable AI roadmaps."
+      },
+      "2": {
+        "title": "Data Modernization",
+        "desc": "Unlocking the power of data to drive confident decision-making."
+      },
+      "3": {
+        "title": "Automation Future",
+        "desc": "Reimagining workflows and operational efficiency with automation."
+      },
+      "4": {
+        "title": "Industry Innovations",
+        "desc": "How AI is reshaping industries and creating new opportunities."
+      }
+    }
+  },
+  "power": {
+    "title": "SundSpeak.",
+    "subtitle": "We adapt fast and leverage technology to stay ahead.",
+    "button": "Let's Connect"
+  },
+  "sustainability": {
+    "imageAlt": "Sustainability and ESG Commitment",
+    "title": "Our sustainability commitment",
+    "paragraph1": "As a global business, we are responsible for enriching the lives of our game-changers, giving back to our communities, and supporting our planet’s health – and we take it very seriously.",
+    "paragraph2": "At SundSpeak, we use our global reach to act as a force for good and change the world by focusing on five key impact areas."
+  },
+  "footer": {
+    "logoAlt": "SundSpeak Logo",
+    "programs": {
+      "title": "Programs",
+      "1": "BPO Career Pathway",
+      "2": "CCX Excellence Training",
+      "3": "Job Readiness Program",
+      "4": "Professional Growth Track"
+    },
+    "services": {
+      "title": "Services",
+      "1": "Communication Coaching",
+      "2": "Interview Preparation",
+      "3": "Industry Certification Programs",
+      "4": "Live Role-Play Sessions"
+    },
+    "resources": {
+      "title": "Resources",
+      "1": "Knowledge Hub Blog",
+      "2": "FAQs",
+      "3": "Skill-Building Workshops",
+      "4": "Learner Support"
+    },
+    "company": {
+      "title": "Company",
+      "1": "About Us",
+      "2": "Careers",
+      "3": "Contact",
+      "4": "Privacy Policy"
+    },
+    "copyright": "SundSpeak International. All rights reserved."
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Services",
+      "subtitle": "Comprehensive solutions for technology-driven growth",
+      "description": "Leverage data, innovation, and operational excellence to boost performance and deliver measurable results across your enterprise.",
+      "button": "Let's Connect"
+    },
+    "strategy": {
+      "training": {
+        "heading": "Immersive CX Training for BPO Teams",
+        "description": "Empower your workforce with tailored customer experience learning designed for client-facing environments.",
+        "items": {
+          "1": "Live sessions with expert trainers",
+          "2": "Real-time customer interaction simulations",
+          "3": "Accent clarity & communication techniques",
+          "4": "CX-focused vocabulary & roleplay for service excellence"
+        }
+      },
+      "why": {
+        "heading": "Why SundSpeak Works",
+        "description": "Our proven framework helps BPO professionals build confidence, communication skills, and real-world client readiness.",
+        "items": {
+          "1": "Tailored learning paths for every role",
+          "2": "Flexible online access for busy teams",
+          "3": "Corporate onboarding support",
+          "4": "Progress tracking & certification"
+        },
+        "extraText": "We’re a growing Corporate, ready to empower BPO workforces with the skills they need to deliver exceptional customer experiences and succeed in international markets."
+      }
+    }
+  },
+  "solutionEcosystem": {
+    "title": "Our Solution Ecosystem",
+    "description": "Discover new possibilities to unlock your full potential. Through our expansive solution ecosystem, we design, build, and run your future business to give you the edge—enabling your business to work smarter, faster, and be better aligned for growth."
+  },
+  "faq": {
+  "title": "Frequently Asked Questions",
+  "items": {
+    "1": {
+      "question": "What is SundSpeak and what do you offer?",
+      "answer": "SundSpeak provides immersive training programs designed to strengthen communication, client interaction, and customer experience skills for BPO professionals."
+    },
+    "2": {
+      "question": "Is prior call center experience required?",
+      "answer": "No. Our programs are tailored for all levels, from newcomers to seasoned agents, ensuring everyone can build confidence and readiness."
+    },
+    "3": {
+      "question": "How long does it take to see results?",
+      "answer": "Most teams notice improved communication and CX performance within weeks, depending on training intensity and role requirements."
+    },
+    "4": {
+      "question": "Can companies enroll their teams?",
+      "answer": "Yes. We offer corporate onboarding support and customized training paths for entire BPO teams to align with client expectations."
+    }
+  }
+},
+  "letsConnect": {
+    "imageAlt": "Let's Connect",
+    "title": "Let’s Connect",
+    "subtitle": "Click the button below if you’re looking for a SundSpeak career opportunity.",
+    "viewCareers": "View Careers",
+    "submit": "Submit",
+    "consent": "I consent to receive information on relevant content, products, and services from SundSpeak. I understand that I can unsubscribe at any time.",
+    "privacy": "By submitting this form, we will process and store your data in accordance with our Privacy Policy.",
+    "recaptcha": "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.",
+    "form": {
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "company": "Company Name *",
+      "email": "Business Email *",
+      "phone": "Phone *",
+      "comments": "Comments *",
+      "jobLevel": {
+        "placeholder": "Job Level * (Select)",
+        "entry": "Entry Level",
+        "mid": "Mid-Level",
+        "senior": "Senior",
+        "executive": "Executive"
+      },
+      "country": {
+        "placeholder": "Country * (Select)",
+        "germany": "Germany",
+        "philippines": "Philippines",
+        "india": "India",
+        "usa": "USA",
+        "other": "Other"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "intro": "SundSpeak International was founded with a mission to equip global BPO talent with the language and communication skills needed to thrive in customer‑facing careers. What began as a small initiative has grown into a trusted training partner for outsourcing professionals across continents.",
+    "paragraph1": "Our success lies in our learner‑first mindset, a deep understanding of the communication challenges in global business, and a relentless focus on practical, immersive language training. We believe fluency isn’t just grammar — it’s confidence, clarity, and career opportunity.",
+    "paragraph2": "With expert instructors and an industry‑aligned curriculum, SundSpeak has helped hundreds of professionals transition from entry‑level language skills to career‑ready fluency — prepared to support international clients, deliver exceptional customer experiences, and unlock new opportunities in the global BPO market.",
+    "imageAlt": "Founder or SundSpeak Team",
+    "founder": {
+      "name": "Sarah Muller, Founder & Head Instructor,",
+      "text": "has led the mission since day one. Her commitment to education, clarity in communication, and cultural understanding shapes every lesson we teach."
+    },
+    "tagline": "Language-focused. Career-driven. Confidence-built.",
+    "closing": "And we’re just getting started."
+  },
+  "trusted": {
+    "title": "Partnering with BPO professionals to unlock career growth through language excellence.",
+    "imageAlt": "Global Communication Training"
+  },
+  "promise": {
+    "title": "Our Promise",
+    "subtitle": "Challenging conventions, transforming careers, and delivering outcomes through language excellence.",
+    "items": {
+      "1": {
+        "title": "German for BPO"
+      },
+      "2": {
+        "title": "Fluency for CX"
+      },
+      "3": {
+        "title": "Student Success"
+      },
+      "4": {
+        "title": "Career Pathway"
+      }
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "SundSpeak",
+      "subtitle": "Language. Learning. Leadership.",
+      "description": "At SundSpeak International, we specialize in language training tailored for the BPO industry. Our mission is to bridge communication gaps, empower customer service professionals, and enable global career mobility. By aligning language skills with the demands of international business processes, we help teams deliver exceptional support, strengthen client relationships, and thrive in the global outsourcing market.",
+      "button": "Learn More"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We’re here to support your journey.",
+      "description": "Reach out to SundSpeak International to learn more about our programs, enroll in training, or explore partnership opportunities. We’d love to hear from you.",
+      "button": "Send a Message"
+    }
+  },
+  "contactForm": {
+    "interestsTitle": "I am interested in",
+    "interests": {
+      "1": "Enrolling in a Language Program",
+      "2": "Corporate Training for BPO Teams",
+      "3": "Partnership Opportunities",
+      "4": "Media Inquiry",
+      "5": "Careers at SundSpeak",
+      "6": "Report an Issue or Provide Feedback"
+    },
+    "submit": "Submit",
+    "consent": "I consent to receive information on relevant content, products, and services from SundSpeak. I understand that I can unsubscribe at any time.",
+    "privacy": "By submitting this form, we will process and store your data in accordance with our Privacy Policy.",
+    "recaptcha": "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.",
+    "form": {
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "company": "Company Name *",
+      "email": "Business Email *",
+      "phone": "Phone *",
+      "comments": "Comments *",
+      "jobLevel": {
+        "placeholder": "Job Level * (Select)",
+        "entry": "Entry Level",
+        "mid": "Mid-Level",
+        "senior": "Senior",
+        "executive": "Executive"
+      },
+      "country": {
+        "placeholder": "Country * (Select)",
+        "germany": "Germany",
+        "philippines": "Philippines",
+        "india": "India",
+        "usa": "USA",
+        "other": "Other"
+      }
+    }
+  
+  },
+
+
+
+    "careersPage": {
+      "hero": {
+        "title": "Careers",
+        "subtitle": "Search for your dream job and find your perfect location.",
+        "searchPlaceholder": "Search job title or keyword",
+        "locationPlaceholder": "Location",
+        "imageAlt": "Careers at SundSpeak"
+      },
+      "jobs": {
+        "label": "WE SELECTED JUST FOR YOU",
+        "title": "Power your Team-Changing career",
+        "loading": "Loading jobs...",
+        "empty": "No jobs available at the moment.",
+        "apply": "Apply Now",
+        "language": "German"
+      }
+    },
+  "jobDetails": {
+    "loading": "Loading job details...",
+    "apply": "Apply Now",
+    "description": "Job Description",
+    "labels": {
+      "location": "Location",
+      "language": "Language"
+    },
+    "summary": {
+      "title": "Summary",
+      "text": "Apply with SundSpeak!"
+    },
+    "errors": {
+      "title": "Job not found",
+      "notFound": "This job does not exist."
+    }
+  },
+  "applyForm": {
+    "title": "Apply for this Job",
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "cancel": "Cancel",
+    "success": "Your application has been submitted successfully.",
+    "fields": {
+      "fullName": "Full Name *",
+      "email": "Email *",
+      "phone": "Phone *",
+      "city": "City",
+      "experience": "Experience"
+    },
+    "errors": {
+      "required": "Please fill all required fields",
+      "failed": "Failed to submit application",
+      "generic": "Something went wrong. Please try again."
+    }
+  }
+}
+
