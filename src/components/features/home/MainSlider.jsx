@@ -1,15 +1,14 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { IoMdAdd } from "react-icons/io";
+import { useRouter } from "next/navigation";
+import { useLocale } from "next-intl";
 
 import "swiper/css";
 import "swiper/css/pagination";
-
-import AddToCartModal from "./steps/AddToCartModal";
 
 const slidesData = [
   {
@@ -43,7 +42,8 @@ const slidesData = [
 ];
 
 export default function MainSlider() {
-  const [showModal, setShowModal] = useState(false);
+  const router = useRouter();
+  const locale = useLocale();
 
   return (
     <div>
@@ -93,7 +93,7 @@ export default function MainSlider() {
                 {/* Add Button */}
                 <div
                   className="absolute -top-6 right-0 w-9 h-9 bg-lightYellow rounded-full flex items-center justify-center shadow cursor-pointer"
-                  onClick={() => setShowModal(true)}
+                  onClick={() => router.push(`/${locale}/menu`)}
                 >
                   <IoMdAdd className="text-mainGreen" size={28} />
                 </div>
@@ -134,12 +134,6 @@ export default function MainSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
-
-      {/* Modal */}
-      <AddToCartModal
-        isOpen={showModal}
-        onClose={() => setShowModal(false)}
-      />
     </div>
   );
 }

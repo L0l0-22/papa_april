@@ -86,7 +86,7 @@ export async function middleware(request) {
 }
 
 export const config = {
-  matcher: ['/', '/(ar|en|de)/:path*'],
+  matcher: ['/', '/(ar|en)/:path*'],
 };
 
 // 🌍 GeoIP function

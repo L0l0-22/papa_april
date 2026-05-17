@@ -2,7 +2,17 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: false, // ✅ disable Strict Mode
+  reactStrictMode: false, // ✅ disable Strict Mode
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: '204.168.249.55',
+        port: '8069',
+        pathname: '/**',
+      },
+    ],
+  },
 
   async redirects() {
     return [

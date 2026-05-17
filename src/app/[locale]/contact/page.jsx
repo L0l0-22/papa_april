@@ -1,8 +1,8 @@
 'use client'
 
-import Comments from '@/components/Comments'
-import DeliverPeople from '@/components/DeliverPeople'
-import DownloadApp from '@/components/DownloadApp'
+import Comments from '@/components/features/about/Comments'
+import DeliverPeople from '@/components/features/map-delivery/DeliverPeople'
+import DownloadApp from '@/components/features/marketing/DownloadApp'
 import React from 'react'
 
 

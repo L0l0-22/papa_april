@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import papaLogo from "/public/logo.png";
 import {
   FaEnvelope,
   FaFacebookF,

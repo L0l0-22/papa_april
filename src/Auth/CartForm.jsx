@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import CartModal from '../components/CartModal';
-import CheckoutModal from '../components/CheckoutModal';
+import CartModal from '@/components/features/cart/CartModal';
+import CheckoutModal from '@/components/features/cart/CheckoutModal';
 
 export default function CartForm() {
   const [showCart, setShowCart] = useState(false);

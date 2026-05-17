@@ -1,14 +1,14 @@
 'use client';
 import React from 'react'
-import MainSlider from '@/components/MainSlider'
-import Ingredients from '@/components/Ingredients'
-import Pizza from '@/components/Pizza'
-import Find from '@/components/Find'
-import Work from '@/components/Work'
-import Feedback from '@/components/Feedback'
-import People from '@/components/People'
-import { feedbackData } from '@/components/feedbackData'
-import Deliver from '@/components/Deliver';
+import MainSlider from '@/components/features/home/MainSlider'
+import Ingredients from '@/components/features/home/Ingredients'
+import Pizza from '@/components/features/home/Pizza'
+import Find from '@/components/features/map-delivery/Find'
+import Work from '@/components/features/home/Work'
+import Feedback from '@/components/features/home/Feedback'
+import People from '@/components/features/home/People'
+import { feedbackData } from '@/components/features/home/feedbackData'
+import Deliver from '@/components/features/home/Deliver';
 
 export default function Home() {
   return (

@@ -1,12 +1,12 @@
 'use client';
 
 import { useState, useEffect } from "react";
-import Stepper from "../components/CustomStepper";
-import PlanStep from "../components/steps/Step1";
-import MealsStep from "../components/steps/Step2";
-import SnackStep from "../components/steps/Step3";
-import CheckOutStep from "../components/steps/Step4";
-import PickStep from "../components/steps/PickStep";
+import Stepper from "@/components/ui/CustomStepper";
+import PlanStep from "@/components/features/cart/checkout-steps/Step1";
+import MealsStep from "@/components/features/cart/checkout-steps/Step2";
+import SnackStep from "@/components/features/cart/checkout-steps/Step3";
+import CheckOutStep from "@/components/features/cart/checkout-steps/Step4";
+import PickStep from "@/components/features/cart/checkout-steps/PickStep";
 
 export default function Page() {
   const [step, setStep] = useState(0);

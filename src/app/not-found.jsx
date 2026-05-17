@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Support from "../components/Support";
+import Support from "@/components/features/marketing/Support";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FiClock, FiPhone } from "react-icons/fi";
 

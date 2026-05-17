@@ -1,113 +1,59 @@
 'use client';
 
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
-import AddToCartModal from "../../../components/steps/AddToCartModal";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchMenu } from "@/redux/slices/menuSlice";
+import { useRouter } from "next/navigation";
+import { useLocale } from "next-intl";
 
 export default function Page() {
+  const dispatch = useDispatch();
+  const router = useRouter();
+  const locale = useLocale();
+  const { categories, loading, error } = useSelector((state) => state.menu);
 
-  const menuData = [
-    {
-      name: "Rewards",
-      id: "Rewards",
-      items: [
-        {
-          title: "Free Pizza Reward",
-          desc: "Earn points and redeem for free pizza.",
-          price: "Free",
-          image: "/reward2.png"
-        },
-      ],
-    },
-    {
-      name: "Papa’s Deals",
-      id: "Papa’s Deals",
-      items: [
-        {
-          title: "Buy 2 Get 1 Free",
-          desc: "Grab two pizzas and get one free.",
-          price: "$25.99",
-          image: "/legand1.png"
-        },
-        {
-          title: "Double Large Offer",
-          desc: "Two large pizzas at a special price.",
-          price: "$29.99",
-          image: "/legand3.png"
-        },
-        {
-          title: "Double Medium Offer",
-          desc: "Two medium pizzas bundled together.",
-          price: "$21.99",
-          image: "/legand.png"
-        },
-      ],
-    },
+  useEffect(() => {
+    dispatch(fetchMenu());
+  }, [dispatch]);
 
-    {
-      name: "pizzas",
-      id: "pizzas",
-      items: [
-        {
-          title: "Pepperoni",
-          desc: "Classic pepperoni & cheese pizza.",
-          price: "$12.99",
-          image: "/Peperoni.png"
-        },
-        {
-          title: "Super Papa",
-          desc: "Loaded pizza with all toppings.",
-          price: "$16.99",
-          image: "/Super Papa.png"
-        },
-      ],
-    },
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="w-12 h-12 border-b-2 border-red-700 rounded-full animate-spin"></div>
+      </div>
+    );
+  }
 
-    {
-      name: "Beverages",
-      id: "Beverages",
-      items: [
-        {
-          title: "Pepsi",
-          desc: "Classic cola flavor.",
-          price: "$1.99",
-          image: "/pepsi.png"
-        },
-        {
-          title: "7Up",
-          desc: "Refreshing lemon soda.",
-          price: "$1.99",
-          image: "/7up.png"
-        },
-      ],
-    },
-  ];
-
-  const [showModal, setShowModal] = useState(false);
+  if (error) {
+    return (
+      <div className="flex items-center justify-center min-h-screen text-red-600">
+        Error: {error}
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-[80%] mx-auto mt-12 mb-32">
-
-      {menuData.map((category) => (
+      {categories.map((category, index) => (
         <section
-          key={category.id}
-          id={category.id}
+          key={category.uuid ? `${category.uuid}-${index}` : index}
+          id={category.uuid || `category-${index}`}
           className="mb-20 scroll-mt-12"
         >
-          <h2 className="mb-4 text-2xl font-bold">{category.name}</h2>
+          <h2 className="mb-4 h2-title">{category.name}</h2>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
-
-            {category.items.map((item, index) => (
+            {category.products?.map((item, index) => (
               <div
-                key={index}
+                key={item.uuid ? `${item.uuid}-${index}` : (item.id ? `${item.id}-${index}` : index)}
                 className="flex flex-col overflow-hidden transition bg-white border shadow rounded-2xl hover:shadow-lg"
               >
                 {/* Image */}
                 <div className="relative w-full h-52">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt={item.name}
                     fill
                     className="object-contain p-4"
                   />
@@ -115,35 +61,39 @@ export default function Page() {
 
                 {/* Content */}
                 <div className="flex flex-col flex-grow p-4">
-                  <h3 className="mb-1 text-base font-bold">{item.title}</h3>
+                  <h3 className="mb-1 text-base font-bold">{item.name}</h3>
 
                   <p className="flex-grow text-sm text-gray-600">
-                    {item.desc}
+                    {item.description}
                   </p>
 
                   <div className="flex items-center justify-between mt-9">
-                    <p className="text-sm">{item.price}</p>
+                    <p className="text-sm font-bold">
+                      {item.has_discount ? (
+                        <>
+                          <span className="mr-2 text-red-600">${item.price_after_discount}</span>
+                          <span className="text-xs text-gray-400 line-through">${item.price}</span>
+                        </>
+                      ) : (
+                        `$${item.price}`
+                      )}
+                    </p>
 
                     <button
-                      onClick={() => setShowModal(true)}
-                      className="px-6 py-2 text-sm uppercase border border-black rounded-full bg-lightYellow hover:bg-transparent"
+                      onClick={() => {
+                        router.push(`/${locale}/product/${item.id}`);
+                      }}
+                      className="btn-primary"
                     >
                       ADD TO CART
                     </button>
                   </div>
                 </div>
-
               </div>
             ))}
-
           </div>
         </section>
       ))}
-
-      <AddToCartModal
-        isOpen={showModal}
-        onClose={() => setShowModal(false)}
-      />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 'use client';
 
-import DeliveryWork from '@/components/DeliveryWork';
-import RewardFrame from '@/components/RewardFrame';
-import Rewards from '@/components/Rewards';
+import DeliveryWork from '@/components/features/map-delivery/DeliveryWork';
+import RewardFrame from '@/components/features/rewards/RewardFrame';
+import Rewards from '@/components/features/rewards/Rewards';
 import React from 'react';
 
 const customWorkArray = [

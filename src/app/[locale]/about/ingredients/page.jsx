@@ -4,10 +4,10 @@ import React from 'react';
 
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiClock, FiPhone } from 'react-icons/fi';
-import DeliverySlider from '@/components/DeliverySlider';
-import Carousel from '@/components/Carousel';
-import People from '@/components/People';
-import Support from '@/components/Support';
+import DeliverySlider from '@/components/features/map-delivery/DeliverySlider';
+import Carousel from '@/components/features/about/Carousel';
+import People from '@/components/features/home/People';
+import Support from '@/components/features/marketing/Support';
 
 export default function Page() {
 

@@ -2,7 +2,7 @@
 
 @theme inline {
   /* Fonts */
-  --font-sans: 'Poppins', sans-serif;
+  --font-sans: var(--font-PapaSans), sans-serif;
   --font-potta: '"Potta One"', cursive;
 
   /* Custom Screens */
@@ -36,10 +36,40 @@
 
 body {
   font-family: var(--font-sans);
+  letter-spacing: 0.06em; /* Adjust this value (e.g., 0.02em to 0.1em) as needed */
 }
 
 @keyframes fadeMove {
   0% { opacity: 0; transform: translate(var(--x), var(--y)) scale(0.3); }
   50% { opacity: 1; transform: translate(calc(var(--x) + 4px), calc(var(--y) - 3px)) scale(1); }
   100% { opacity: 0; transform: translate(var(--x), var(--y)) scale(0.3); }
+}
+
+@layer components {
+  /* --- Reusable Headings --- */
+  .h1-title {
+    @apply text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight tracking-tight;
+  }
+  .h2-title {
+    @apply text-lg md:text-xl lg:text-2xl font-bold leading-[1.2];
+  }
+  .h3-title {
+    @apply text-base md:text-lg lg:text-xl font-bold leading-snug;
+  }
+
+  /* --- Reusable Body Texts --- */
+  .body-text-lg {
+    @apply text-base md:text-lg lg:text-xl font-normal leading-relaxed text-gray-800;
+  }
+  .body-text-sm {
+    @apply text-sm md:text-base font-normal leading-normal text-gray-600;
+  }
+
+  /* --- Reusable Buttons --- */
+  .btn-primary {
+    @apply bg-lightYellow text-black border border-black font-medium uppercase rounded-full px-6 py-1.5 transition-all duration-300 hover:bg-transparent text-center inline-flex justify-center items-center cursor-pointer;
+  }
+  .btn-secondary {
+    @apply bg-mainGreen text-white font-bold uppercase rounded-full px-8 py-3 transition-all duration-300 hover:bg-[#20451e] hover:-translate-y-1 hover:shadow-lg active:scale-95 text-center inline-flex justify-center items-center cursor-pointer;
+  }
 }

@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import Find from '../../../components/Find';
-import Work from '../../../components/Work';
-import DownloadApp from '../../../components/DownloadApp';
-import Rewards from '../../../components/Rewards';
+import Find from '@/components/features/map-delivery/Find';
+import Work from '@/components/features/home/Work';
+import DownloadApp from '@/components/features/marketing/DownloadApp';
+import Rewards from '@/components/features/rewards/Rewards';
 
 const customFindArray = [
   {

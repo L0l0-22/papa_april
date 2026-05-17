@@ -1,8 +1,8 @@
 'use client';
 
-import Ingredients from '@/components/Ingredients';
-import NutritionInfoSection from '@/components/NutritionInfoSection';
-import RewardFrame from '@/components/RewardFrame';
+import Ingredients from '@/components/features/home/Ingredients';
+import NutritionInfoSection from '@/components/features/marketing/NutritionInfoSection';
+import RewardFrame from '@/components/features/rewards/RewardFrame';
 import React from 'react'
 
 

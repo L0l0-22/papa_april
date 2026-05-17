@@ -2,12 +2,12 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
-import Meeting from '@/components/Meeting';
-import Find from '@/components/Find';
-import Location from '@/components/Location';
-import DownloadApp from '@/components/DownloadApp';
-import Feedback from '@/components/Feedback';
-import { feedbackData } from '@/components/feedbackData';
+import Meeting from '@/components/features/about/Meeting';
+import Find from '@/components/features/map-delivery/Find';
+import Location from '@/components/features/map-delivery/Location';
+import DownloadApp from '@/components/features/marketing/DownloadApp';
+import Feedback from '@/components/features/home/Feedback';
+import { feedbackData } from '@/components/features/home/feedbackData';
 
 
 export default function Page() {

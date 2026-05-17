@@ -3,9 +3,9 @@
 import React from 'react';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiClock, FiPhone } from 'react-icons/fi';
-import StoreCard from '@/components/StoreCard';
-import Location from '@/components/Location';
-import Support from '@/components/Support';
+import StoreCard from '@/components/features/map-delivery/StoreCard';
+import Location from '@/components/features/map-delivery/Location';
+import Support from '@/components/features/marketing/Support';
 
 export default function Page() {
 

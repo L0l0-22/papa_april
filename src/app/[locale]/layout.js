@@ -2,25 +2,35 @@ import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import "../globals.css";
-import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
 import localFont from 'next/font/local'; // For custom fonts
 import LayoutClientWrapper from '../LayoutClientWrapper';
+import ReduxProvider from '@/redux/ReduxProvider';
 
 // Import custom fonts
-const PapaSansHeavy = localFont({
-  src: '../../../public/fonts/PapaSans-Heavy.woff2',
-  variable: '--font-PapaSansHeavy',
-});
-
-const PapaSansMediumCondensed = localFont({
-  src: '../../../public/fonts/PapaSans-MediumCondensed.woff2',
-  variable: '--font-PapaSansMediumCondensed',
-});
-
-const PapaSansRegular = localFont({
-  src: '../../../public/fonts/PapaSans-Regular.woff2',
-  variable: '--font-PapaSansRegular',
+const PapaSans = localFont({
+  src: [
+    {
+      path: '../../../public/fonts/PapaSans-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/PapaSans-MediumCondensed.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/PapaSans-Heavy.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/PapaSans-Heavy.woff2',
+      weight: '800',
+      style: 'normal',
+    }
+  ],
+  variable: '--font-PapaSans',
 });
 
 const Pappy = localFont({
@@ -84,13 +94,15 @@ export default async function LocaleLayout({ children, params }) {
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} className={`${PapaSansHeavy.variable} ${PapaSansMediumCondensed.variable} ${PapaSansRegular.variable} ${Pappy.variable} ${Sans.variable} ${SpotItalic.variable}`}>
+    <html lang={locale} dir={dir} className={`${PapaSans.variable} ${Pappy.variable} ${Sans.variable} ${SpotItalic.variable}`}>
       <body>
-<NextIntlClientProvider locale={locale} messages={messages} dir={dir}>
-  <LayoutClientWrapper>
-    {children}
-  </LayoutClientWrapper>
-</NextIntlClientProvider>
+        <ReduxProvider>
+          <NextIntlClientProvider locale={locale} messages={messages} dir={dir}>
+            <LayoutClientWrapper>
+              {children}
+            </LayoutClientWrapper>
+          </NextIntlClientProvider>
+        </ReduxProvider>
       </body>
     </html>
   );

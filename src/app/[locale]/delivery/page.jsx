@@ -3,12 +3,12 @@ import React from 'react'
 
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiClock, FiPhone } from 'react-icons/fi';
-import DeliverySlider from '@/components/DeliverySlider';
-import Steps from '@/components/Steps';
-import DeliveryWork from '@/components/DeliveryWork';
-import DeliverPeople from '@/components/DeliverPeople';
-import DownloadApp from '@/components/DownloadApp';
-import Support from '@/components/Support';
+import DeliverySlider from '@/components/features/map-delivery/DeliverySlider';
+import Steps from '@/components/features/marketing/Steps';
+import DeliveryWork from '@/components/features/map-delivery/DeliveryWork';
+import DeliverPeople from '@/components/features/map-delivery/DeliverPeople';
+import DownloadApp from '@/components/features/marketing/DownloadApp';
+import Support from '@/components/features/marketing/Support';
 export default function Page() {
   const supportData = {
       heading: 'egypt - cairo , maadi',
